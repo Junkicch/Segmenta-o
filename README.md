@@ -4,14 +4,12 @@
     - Este trabalho consite em implementar um script para aplicação de filtros para detecção de bordas em imagens no domínio espacial, no processo de filtragem usasse um processo de convolução de uma máscara pela imagem. Este processo equivale a percorrer toda a imagem alterando seus valores conforme os pesos da máscara e as intensidades da imagem.
     - Sendo que esta sendo aplicado os seguintes filtros em imagens monocromáticas:
 
-        -h1 = [0, 0, -1, 0, 0],
-
+        - h1 = 
+        
+              [0, 0, -1, 0, 0],
               [0, -1, -2, -1, 0],
-
               [-1, -2, 16, -2, -1],
-
               [0, -1, -2, -1, 0],
-              
               [0, 0, -1, 0, 0]
 
 
